@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html>
- <head>
-     <meta charset="UTF-8" />
-     <meta name="author" content="Manuele" />
-    <title> Exemple CSS</title>
- </head>
-<body>
-    <h1 style="text-align:  center; 
-                      color: red;">  
-                  Exemple CSS </h1>
-    <p> Ceci est un texte en  
-       <span style="font-weight: bold;"> 
-       gras </span>. 
-    </p> 
-</body>
-</html>
+mvn clean
+mvn clean test
+mvn clean package
+mvn clean package install
+mvn -Dmaven.test.skip=TRUE install
 
